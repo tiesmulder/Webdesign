@@ -1,66 +1,164 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" media="screen" href="Ties.css" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Leerdoelen Ties</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="ScriptTies.js"></script>
+	<title>Welkom</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="StyleTies.css">
 </head>
 <body>
+    <div id="headwrapper">
+        <header>
+            <h1>Leerdoelen Ties</h1>
+            <h5>Leerdoelen & Reflectie</h5>
+        </header>   
+    	<nav id="navbar">
+    		<ul id="select_week">
+    			<li class="week_li"><a href="#intro">Introductie</a></li>
+    			<li class="week_li"><a href="#leerdoel1">Leerdoel 1</a></li>
+    			<li class="week_li"><a href="#leerdoel2">Leerdoel 2</a></li>
+                <li class="week_li"><a href="#refelctie">Reflectie</a></li>
+                <li class="week_li_right"><a style="padding-top: 30px" href="Home.html">Terug</a></li>
+                <li class="week_li_right"><p style="padding-top: 30px">|</p></li>
+    			<li class="week_li_right"><p>Hogeschool Avans Breda</p></li>
+                <li class="week_li_right"><p style="padding-top: 30px">|</p></li>
+    			<li class="week_li_right"><p>Ties Mulder</p></li>			
+    		</ul>
+    	</nav>
+    </div>
 
-<div class="header">
-  <h1>Leerdoelenpagina Ties</h1>
-  <p>Probleemstelling, leerdoelen en reflectie</p>
-</div>
+	<div id="bigimage1"></div>
+	<div id="Intro">
+    <br><br><br>
+		<h1>Introductie</h1>
+		<p>
+                <ul id="smart">De letters van <b>SMART</b> staan voor:
+                    <li>Specifiek - Is de doelstelling eenduidig?</li>
+                    <li>Meetbaar - Onder welke (meetbare/observeerbare) voorwaarden of vorm is het doel bereikt?</li>
+                    <li>Acceptabel - Zijn deze doelen acceptabel?</li>
+                    <li>Realistisch - Is het doel haalbaar?</li>
+                    <li>Tijdsgebonden - Wanneer (in de tijd) moet het doel bereikt zijn?</li>
+                </ul>			
+            <button id="button_info" type="button" class="btn btn-primary btn-lg" onclick="infoSmart()">Meer informatie SMART</button>
+            <br><br>
+            Op deze pagina staan twee leerdoelen die <b>SMART geformuldeerd</b> zijn. 
+         </p>
+   </div>
+   <div id="HomeOpmaak">
+	<div id="leerdoel1">
+    <br><br><br>
+		<h1>Leerdoel 1</h1>
+        <br>
+        <table class="tbSmart">
+          <tr>
+            <th>Probleem</th>
+            <td>Als ik een college mis dan laat ik de gemiste stof voor wat het is in plaats van dat ik het voor het volgende college nog probeer in te halen en kom hierdoor bij de volgende colleges en de uiteindelijke toets in de problemen.</td>
+          </tr>
+          <tr>
+            <th>Oplossing SMART</th>
+            <td>Om voortaan op tijd de gemiste stof in te halen informeer ik bij mijn medestudenten welke stof er dat college besproken is en neem ik op Classroom de gemiste presentatie door.</td>
+          </tr>
+        </table>
+		<br>
+        <h5>Opmerkingen</h5>
+        <p>Het grootste probleem bij dit leerdoel was dat ik naar heel veel lessen niet ben gegaan, omdat ik geen tijd/motivatie had om naar school te komen. Nu ik dit veranderd heb, merk ik dat af en toe een college missen en deze terugkijken veel minder moeite is dan 4 lessen missen en dan pas alle colleges terugkijken. </p>
+	</div>
 
-<div class="topnav">
-  <a href="#">Leerdoel 1</a>
-  <a href="#">Leerdoel 2</a>
-  <a href="#">Leerdoel 3</a>
-  <a href="Index.HTML" style="float:right">Terug</a>
-</div>
+		<br><br><br><br>
 
-<div class="row">
-  <div class="leftcolumn">
-    <div class="card">
-      <h2>Leerdoel 1</h2>
-      <h5>Uitleg afbeelding, datum</h5>
-      <div class="fakeimg" style="height:200px;">Plaatje</div>
-      <p></p>
-    </div>
-    <div class="card">
-      <h2>Leerdoel 2</h2>
-      <h5>Uitleg afbeelding, datum</h5>
-      <div class="fakeimg" style="height:200px;">Plaatje</div>
-      <p>blabla..</p>
-    </div>
-  </div>
-  <div class="card">
-      <h2>Leerdoel 3</h2>
-      <h5>Uitleg afbeelding, datum</h5>
-      <div class="fakeimg" style="height:200px;">Plaatje</div>
-      <p>blabla..</p>
-    </div>
-  </div>
-  <div class="rightcolumn">
-    <div class="card">
-      <h2>Over mezelf</h2>
-      <div class="fakeimg" style="height:100px;">Plaatje</div>
-      <p>blabla..</p>
-    </div>
-    <div class="card">
-      <h3>Extra informatie</h3>
-      <div class="fakeimg"><p>Image</p></div>
-      <div class="fakeimg"><p>Image</p></div>
-      <div class="fakeimg"><p>Image</p></div>
-    </div>
-    <div class="card">
-      <h3>Contact</h3>
-      <p>twitter insta website github schoolmail idk verzin iets</p>
-    </div>
-  </div>
-</div>
+ 	<div id="leerdoel2">
+    <br><br><br>
+			<h1>Leerdoel 2</h1>
 
-<div class="footer">
-  <h2>Banaan</h2>
-</div>
+            <br>
 
+            <table class="tbSmart">
+              <tr>
+                <th>Probleem</th>
+                <td>Ik vraag heel vaak naar de bekende weg. Dit geeft mensen soms de impressie dat ik onzelfstandig en niet zo slim ben, terwijl ik vaak dingen vraag omdat ik er dan zelf niet over na hoef te denken.</td>
+              </tr>
+              <tr>
+                <th>Oplossing SMART</th>
+                <td>Om voortaan zelfstandiger te kunnen werken ga ik oefenen met het gebruiken van de juiste “keywords” die gebruikt kunnen worden in de Google zoekmachine, vraagstukken die ik niet meteen begrijp even links laten liggen en eerst de vraagstukken die ik wél begrijp eerst zelf maken voordat ik vraag aan iemand anders wat hij/zij ervan vindt.</td>
+              </tr>
+            </table>
+
+            <br>
+            <h5>Opmerkingen</h5>
+            <p>In de computerwereld wordt alles online gezet dus ben ik als ik iets niet wist, eerst op het internet gaan zoeken, voordat ik het vroeg aan iemand anders. Hierdoor heb ik beter geleerd hoe je sommige dingen via google beter kan vinden. Ik denk eerst na voordat ik om hulp vraag en ik probeer van mezelf te leren terwijl ik dingen opzoek.</p>
+	 </div>
+
+    <br>
+    <div id="refelctie">
+    <br><br><br>
+        <h1>Reflectie</h1>
+        <br>
+        <p>
+                <b>Leerdoel 1:</b> Het tijdig terugkijken van de colleges is heel belangrijk voor mij. Hierdoor snapte ik er nog het meest van en kreeg ik geen achterstand bij de volgende lessen. Het belangrijkste voor mij is om eraan te beginnen. Zodra ik eenmaal bezig ben merk ik dat het leren en het programmeren me altijd best goed af gaat. Ik ben ook niet te dom voor HBO en weet zeker dat ik het kan, maar vind het heel lastig om mezelf hiertoe te zetten… 
+                Uiteindelijk is dit leerdoel gewoon een motivatieprobleem. Ik weet niet zo goed wat ik ermee moet eerlijkgezegd. Dit is nu al de derde studie die ik doe en het is elk jaar weer hetzelfde liedje. Ik ben de eerste periode gemotiveerd, niet omdat ik het daadwerkelijk leuk vind, maar omdat ik m’n ouders trots wil maken. Na de eerste periode heb ik er al veel minder zin in en merk ik al heel snel dat ik achterloop. Het is niet dat ik niet ambitieus of lui ben, want ik ben juist heel actief, een doorzetter en heel gemotiveerd als ik iets wil. Alleen op de een of andere manier zie ik de urgentie van de opleiding niet en vind ik het heel lastig om aan mijn toekomst te denken. 
+        </p>
+        <br>
+        <p>
+            <b>Leerdoel 2:</b> Iets wat ik heel lastig vond aan dit leerdoel is dat ik eigenlijk een soort van tegen mezelf in ga. Ik overleg juist heel graag met anderen over vraagstukken en als iemand mij wat vraagt dan probeer ik juist samen met diegene het probleem op te lossen en zal ik nooit tegen die persoon zeggen dat hij/zij maar op het internet moet kijken.
+        </p>
+    </div>
+    </div>
+	<div id="footer">
+        <table id="footer_table">
+            <tr>
+                <th>Pagina's</th>
+                <th class="to_left">Interact!</th>
+            </tr>
+            <tr>
+                <td>
+                    <ul class="footer_sitemap_list" >
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="#headwrapper">Ties Mulder</a></li>
+                        <li><a href="Coen.html">Coen Rijsdijk</a></li>
+                    </ul>
+                </td>
+                <td>
+                    <ul class="footer_link_list">
+                        <li>
+                            <a href="https://www.instagram.com/ties_mulder/" target="_blank">
+                            <img class="socialmedia" src="./assets/img/instagram.png" alt="instagram"><p>Instagram</p></a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/channel/UCqEF6JVWO4DVJmgJ4FRpxTw?view_as=subscriber" target="_blank">
+                            <img class="socialmedia" src="./assets/img/youtube.png" alt="youtube"><p>YouTube</p></a>
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    <ul class="footer_link_list">
+                        <li>
+                            <a href="https://github.com/TiesMulder" target="_blank">
+                            <img class="socialmedia" src="./assets/img/github.png" alt="github"><p>GitHub</p></a>
+                        </li>
+                        <li>
+                            <a href="mailto:tpmulder@avans.nl">
+                            <img class="socialmedia" src="./assets/img/mail.png" alt="email"><p>E-mail</p></a>
+                        </li>                    
+                    </ul>
+                </td>
+            </tr>
+            
+        </table>
+
+        <hr>
+        <br>
+        <p>@ Ties Mulder | All Rights Reserved</p>
+    </div>
+
+
+
+		<script type="text/javascript" src=".\ScriptTies.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: lightgrey;
+    text-shadow: 2px 2px 8px black;
+    background: #41295a;
+    background: -webkit-linear-gradient(to right, #2F0743, #41295a);
+    background: linear-gradient(to right, #2F0743, #41295a);
+}
+
+#bigimage1 {
+   background-image: url("./assets/img/AchtergrondAfbeelding.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: 60% 60%;
+   width: 100%;
+   height: 400px;
+   margin: auto;				 
+   z-index: -2;
+}
+
+#Intro {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#HomeOpmaak {
+    text-align: center;
+}
+
+#HomeOpmaak h1, p, h2, h3 {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#HomeOpmaak h1 {
+    padding-bottom: 50px;
+    padding-top: 100px;
+}
+
+#HomeOpmaak li {
+    text-align: left;
+}
+
+#bigimage2 {
+    background-image: url("./assets/img/AchtergrondHome.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 60% 60%;
+    width: 100%;
+    height: 400px;
+    margin: auto;				 
+    z-index: -2;
+ }
+
+#headwrapper{
+   background-color: #240b36;
+   width: 100%;
+   top: 0;
+}
+
+header {
+   color: lightgray;
+   text-align: center;
+   background-color: #240b36;
+   top: 0;
+   width: 80%;
+   overflow: hidden;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.sticky {
+ position: fixed;
+ top: 0;
+ width: 100%;
+}
+
+#smart {
+   display: none;
+}
+
+.tbSmart {
+   width: 100%;
+   height: 150px;
+}
+
+.tbSmart td, .tbSmart th {
+   border: #333 solid 1px;
+   padding-left: 1%;
+}
+
+.tbSmart th{
+   width: 10%;
+}
+
+#select_week {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+}
+
+.backright {
+    padding-top: 30px;
+}
+
+.week_li {
+    float: left;	
+}
+
+.week_li_right {
+    float: right;	
+}
+
+.week_li_right a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;	
+}
+
+.week_li_right p{
+    display: block;
+    color: white;
+    text-align: center;
+    padding-top: 14px;
+    padding-left:30px;
+}
+
+.week_li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+}
+
+.week_li a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.week_li_right a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+/*footer style*/
+#footer {
+    height: auto;
+    width: 100%;
+    position: absolute;
+    padding-top: 30px;
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    color: #ffffff;
+    text-align: center;
+    margin-top: 25px;
+    text-shadow: 2px 2px 8px black;
+}
+
+#footer_table {
+    width: 50%;
+    margin: 2% 25% 0.5% 25%;
+}
+
+#footer_table td, #footer_table th {
+    text-align: left;
+}
+
+#footer_table th {
+    font-weight: normal;
+    font-size: 14pt;
+    width: 5%;
+}
+
+#footer_table td {
+    font-weight: normal;
+    font-size: 10pt;
+    width: 20%;
+}
+
+#footer_table ul, #footer_table a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #ffffff;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+#footer_table img {
+    width: 40px;
+    float: left;
+}
+
+#footer_table p {
+    position: absolute;
+    margin: 0.2% 1% 1% 3%;
+    font-size: 12pt;
+    padding: 0.2% 0.5% 0.2% 0.5%;
+}
+
+#footer_table li:hover p {
+    position: absolute;
+    color: #333;
+    background-color: #ffffff;
+    border-radius: 4px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#footer_table li:hover h5 {
+    color: #333;
+    background-color: #ffffff;
+    border-radius: 3px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.footer_sitemap_list {
+    height: 150px;
+}
+
+.to_left {
+    padding-left: 17%;
+}
+
+.to_right {
+    padding-right: 17%;
+}
+
+.footer_link_list {
+    margin-top: 10%;
+    margin-left: 50%;
+}
+
+.footer_link_list li {
+    height: 55px;
+    width: 100px;
+}
+
+#footer hr {
+    width: 64%;
+    margin: auto;
+    border: 0; 
+    border-bottom: 1px 
+    dashed #ffffff; 
+}
